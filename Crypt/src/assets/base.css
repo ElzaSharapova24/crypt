@@ -1,0 +1,130 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #182233;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+  --dark-color: #000000;
+
+  --vt-c-indigo: #2c3e50;
+  --primary-color: #116ACC;
+  --secondare-color: #182233;
+  --secondary-light: #b3cee2;
+  --grey-color: #d9dde7;
+  --red-color: #fd4e5d;
+  --bg-color: #F3F4F6;
+  --dr-gr: #9CA3AF;
+  --hv-color: #5897DB;
+  --act-color: #0C4A8F;
+  --dis-color: #C7CBD2;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  /* font-face */
+  --font-family-first: "Roboto-Medium",sans-serif;
+  --font-family-second: "Ubuntu-Regular",sans-serif;
+  --font-family-third: "Ubuntu-Medium",sans-serif;
+  --font-family-fourth: "WorkSans-Bold",sans-serif;
+  --font-family-fifth: "WorkSans-Regular",sans-serif;
+  --font-family-sixth: "WorkSans-light",sans-serif;
+  --font-family-seventh: "WorkSans-Medium",sans-serif;
+  --font-family-eihgth: "WorkSans-SemiBold",sans-serif;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input-reset {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+}
+.input-reset::-webkit-search-decoration, .input-reset::-webkit-search-cancel-button, .input-reset::-webkit-search-results-button, .input-reset::-webkit-search-results-decoration {
+  display: none;
+}
+
+body {
+  min-height: 320px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1410px;
+}
+
+h1,h2,h3,h4,p {
+  margin: 0;
+  padding: 0;
+}
