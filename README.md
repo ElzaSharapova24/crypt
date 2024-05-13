@@ -6,13 +6,12 @@
         1. vue js.
         2. vite.
         3. vue-router.
-        4. Redux Toolkit. 
-        5. vue-yandex-maps.
-        6. vue-chartjs.
-        9. JavaScript.
-        10. CSS.
-        11. HTML.
-        12. Cypress.
+        4. vue-yandex-maps.
+        5. vue-chartjs.
+        6. JavaScript.
+        7. CSS.
+        8. HTML.
+        9. Cypress.
 
 ### Инструкция по работе
         1. Открыть папку Backend в терминале.
